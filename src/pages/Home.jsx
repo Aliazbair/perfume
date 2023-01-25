@@ -7,7 +7,7 @@ export const Home = () => {
   return (
     <div className='py-20'>
       <h1>my Perfume List</h1>
-      <div className='grid grid-cols-2 md:grid-cols-5 gap-4'>
+      <div className='grid  md:grid-cols-5 gap-4'>
         {perfumes.map((perfume) => (
           <div key={perfume.number} className='shadow   px-2'>
             <img
@@ -30,7 +30,7 @@ export const Home = () => {
       </div>
 
       <h1>my Perfume List</h1>
-      <div className='grid grid-cols-2 md:grid-cols-5 gap-4'>
+      <div className='grid  md:grid-cols-5 gap-4'>
         {rings.map((ring) => (
           <div key={ring.id} className='shadow   px-2'>
             <img
@@ -52,7 +52,7 @@ export const Home = () => {
       </div>
 
       <h1>my Perfume List</h1>
-      <div className='grid grid-cols-2 md:grid-cols-5 gap-4'>
+      <div className='grid  md:grid-cols-5 gap-4'>
         {watches.map((watch) => (
           <div key={watch.id} className='shadow   px-2'>
             <img
@@ -74,7 +74,7 @@ export const Home = () => {
       </div>
       
       <Text className='text-green-800 py-3 ' title='flowers List' />
-      <div className='grid grid-cols-2 md:grid-cols-3 gap-4'>
+      <div className='grid  md:grid-cols-3 gap-4'>
         {flowers.map((flower) => (
           <>
             <Card {...flower} link='Git It'>
